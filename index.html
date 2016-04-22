@@ -7,16 +7,47 @@
 </head>
 
 <body>
+	<style>
+		/* this is a css comment */
+		div {
+			width: 50%;
+		}
+		h1 {
+			color: blue;
+		}
+		p {
+			margin: 40px;
+			font-style: none;
+		}
+		p, ul, ol {
+			color: green;
+		}
+		img {
+			width: 100vw;
+		}
+		#heading {
+			font-size: 50px;
+		}
+		.paragraph {
+			font-style: italic;
+		}
+		p.paragraph.intro.featured {
+			padding-left: 20px;
+		}
+		div ul li {
+			background-color: red;
+		}
+	</style>
 	<div>
-		<h1>This is an amazing page</h1>
+		<h1 id="heading">This is an amazing page</h1>
 		<!-- This is a paragraph -->
-		<p>Lorem ipsum a little paragraph of non-existing text. 
+		<p class="paragraph intro featured">Lorem ipsum a little paragraph of non-existing text. 
 			Lorem ipsum a little paragraph of non-existing text. 
 			Lorem ipsum a little paragraph of non-existing text. 
 			<vr>
 				Lorem ipsum a little paragraph of non-existing text. 
 				Lorem ipsum a little paragraph of non-existing text. 
-			</p>
+			</p class="paragraph">
 
 			<ul>
 				<li>Number One</li>
@@ -31,7 +62,7 @@
 			</ol>
 		</div>
 		<div>
-		<img src="./sparta.jpg" />
+			<img src="./sparta.jpg" />
 		</div>
 	</body>
 

@@ -1,0 +1,30 @@
+/* this is a css comment */
+		div {
+			width: 50%;
+			float: left;
+		}
+		h1 {
+			color: blue;
+		}
+		p {
+			margin: 40px;
+			font-style: none;
+		}
+		p, ul, ol {
+			color: green;
+		}
+		img {
+			width: 100vw;
+		}
+		#heading {
+			font-size: 50px;
+		}
+		.paragraph {
+			font-style: italic;
+		}
+		p.paragraph.intro.featured {
+			padding-left: 20px;
+		}
+		div ul li {
+			background-color: red;
+		}
